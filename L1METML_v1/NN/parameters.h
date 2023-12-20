@@ -8,15 +8,11 @@
 #include "nnet_utils/nnet_helpers.h"
 // hls-fpga-machine-learning insert includes
 #include "nnet_utils/nnet_activation.h"
-#include "nnet_utils/nnet_activation_stream.h"
 #include "nnet_utils/nnet_conv1d.h"
 #include "nnet_utils/nnet_embed.h"
-#include "nnet_utils/nnet_embed_stream.h"
 #include "nnet_utils/nnet_merge.h"
-#include "nnet_utils/nnet_merge_stream.h"
 #include "nnet_utils/nnet_pooling.h"
-#include "nnet_utils/nnet_pooling_stream.h"
-#include "nnet_utils/nnet_sepconv1d_stream.h"
+#include "nnet_utils/nnet_conv_stream.h"
 
 // hls-fpga-machine-learning insert weights
 #include "weights/e3.h"

@@ -41,7 +41,7 @@ public:
   
   virtual void read_result(std::any result) {
     // copy result
-    std::array<result_t, N_FILT_21> *result_p = std::any_cast<std::array<result_t, N_FILT_21>*>(result);
+    result_t *result_p = std::any_cast<result_t*>(result);
     for (int i = 0; i < N_FILT_21; i++) {
       result_p[i] = _result[i];
     }
