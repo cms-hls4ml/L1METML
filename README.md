@@ -1,5 +1,9 @@
 # L1METML
 
+<p align="center">
+<img src=https://github.com/cms-hls4ml/L1METML/assets/4932543/d467b9ec-a82a-4733-914e-94eac1aa9430 width=300/>
+</p>
+
 - Model training and conversion code: https://github.com/ucsd-hep-ex/L1METML
 - Emulator tutorial: https://gitlab.cern.ch/fastmachinelearning/cms_mlatl1t_tutorial/-/tree/master/part3
 
