@@ -3,6 +3,8 @@
 #include "L1METML_v1.h"
 #include "parameters.h"
 
+namespace hls4ml_l1metml_v1 {
+
 void L1METML_v1(
     input5_t input_cont[N_INPUT_1_5*N_INPUT_2_5], input19_t input_pxpy[N_INPUT_1_19*N_INPUT_2_19], input_t input_cat0[N_INPUT_1_1], input2_t input_cat1[N_INPUT_1_2],
     result_t layer21_out[N_FILT_21]
@@ -113,5 +115,5 @@ void L1METML_v1(
 #ifdef __HLS4ML_LOAD_TXT_WEIGHTS__
     nnet::save_layer_output<result_t>(layer21_out, "output", N_FILT_21);
 #endif
-
+} // namespace hls4ml_l1metml_v1
 }

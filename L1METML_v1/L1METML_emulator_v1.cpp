@@ -3,6 +3,8 @@
 #include <any>
 #include <array>
 
+using namespace hls4ml_l1metml_v1;
+
 /*
 L1METML_v1.cpp
 */
