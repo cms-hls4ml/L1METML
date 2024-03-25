@@ -8,9 +8,12 @@
 #include "defines.h"
 
 // Prototype of top level function for C-synthesis
+namespace hls4ml_l1metml_v1 {
+
 void L1METML_v1(
     input5_t input_cont[N_INPUT_1_5*N_INPUT_2_5], input19_t input_pxpy[N_INPUT_1_19*N_INPUT_2_19], input_t input_cat0[N_INPUT_1_1], input2_t input_cat1[N_INPUT_1_2],
     result_t layer21_out[N_FILT_21]
 );
 
+} // namespace hls4ml_l1metml_v1
 #endif

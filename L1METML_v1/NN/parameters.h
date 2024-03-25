@@ -24,6 +24,7 @@
 #include "weights/w24.h"
 #include "weights/b24.h"
 
+namespace hls4ml_l1metml_v1 {
 // hls-fpga-machine-learning insert layer-config
 // embedding0
 struct config3 : nnet::embed_config {
@@ -239,5 +240,6 @@ struct config21 : nnet::pooling1d_config {
     typedef model_default_t accum_t;
 };
 
+} // namespace hls4ml_l1metml_v1
 
 #endif
